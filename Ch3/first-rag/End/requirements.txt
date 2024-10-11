@@ -1,0 +1,4 @@
+PyPDF2
+langchain
+langchain_openai
+chromadb

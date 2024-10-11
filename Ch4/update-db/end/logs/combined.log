@@ -1,0 +1,185 @@
+{"level":"info","message":"Server running on port 3000","service":"rag-chatbot","timestamp":"2024-08-22T15:09:10.894Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-22T15:09:16.459Z"}
+{"level":"info","message":"Assigned user ID: 1af53d1aa66b1eee046338724c60881d","service":"rag-chatbot","timestamp":"2024-08-22T15:09:16.462Z"}
+{"level":"info","message":"Feedback logged for user 1af53d1aa66b1eee046338724c60881d, message e25f272c48819714491cdf945d643340: neutral","service":"rag-chatbot","timestamp":"2024-08-22T15:09:16.484Z"}
+{"level":"info","message":"::1 - - [22/Aug/2024:15:09:28 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-22T15:09:28.305Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-22T15:09:28.430Z"}
+{"level":"info","message":"Assigned user ID: 728785f83808b577e8bec9b851b5d7e6","service":"rag-chatbot","timestamp":"2024-08-22T15:09:28.431Z"}
+{"level":"info","message":"Received message from user 728785f83808b577e8bec9b851b5d7e6","service":"rag-chatbot","timestamp":"2024-08-22T15:09:40.589Z"}
+{"level":"info","message":"Generated response for user 728785f83808b577e8bec9b851b5d7e6","service":"rag-chatbot","timestamp":"2024-08-22T15:10:05.722Z"}
+{"level":"info","message":"Feedback logged for user 728785f83808b577e8bec9b851b5d7e6, message e9cd4ff1fdc21ef45759956d0e3f80f5: good","service":"rag-chatbot","timestamp":"2024-08-22T15:10:48.958Z"}
+{"level":"info","message":"Client disconnected: 728785f83808b577e8bec9b851b5d7e6","service":"rag-chatbot","timestamp":"2024-08-22T15:11:56.177Z"}
+{"level":"info","message":"Server running on port 3000","service":"rag-chatbot","timestamp":"2024-08-22T15:19:12.705Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-22T15:19:18.439Z"}
+{"level":"info","message":"Assigned user ID: af0749e01198e50f482a67ac740495c1","service":"rag-chatbot","timestamp":"2024-08-22T15:19:18.441Z"}
+{"level":"info","message":"::1 - - [22/Aug/2024:15:19:19 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-22T15:19:19.561Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-22T15:19:19.716Z"}
+{"level":"info","message":"Assigned user ID: 991f293820a627201511666ef60f3a1e","service":"rag-chatbot","timestamp":"2024-08-22T15:19:19.719Z"}
+{"level":"info","message":"Received message from user 991f293820a627201511666ef60f3a1e","service":"rag-chatbot","timestamp":"2024-08-22T15:19:28.330Z"}
+{"level":"error","message":"Error processing message for user 991f293820a627201511666ef60f3a1e: Cannot read properties of undefined (reading 'observe')","service":"rag-chatbot","stack":"TypeError: Cannot read properties of undefined (reading 'observe')\n    at queryChromaDB (/Users/laurence/Desktop/Code for LinkedIn Course/ch4-extending-RAG/server.js:129:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Socket.<anonymous> (/Users/laurence/Desktop/Code for LinkedIn Course/ch4-extending-RAG/server.js:173:20)","timestamp":"2024-08-22T15:19:29.276Z"}
+{"level":"info","message":"Server running on port 3000","service":"rag-chatbot","timestamp":"2024-08-22T15:24:42.428Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-22T15:24:44.565Z"}
+{"level":"info","message":"Assigned user ID: 8b45bc8997e34f64da23303b3000e011","service":"rag-chatbot","timestamp":"2024-08-22T15:24:44.567Z"}
+{"level":"info","message":"Feedback logged for user 8b45bc8997e34f64da23303b3000e011, message 7deac0d72dec32325f21b66f9cb0a875: neutral","service":"rag-chatbot","timestamp":"2024-08-22T15:24:44.586Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-22T15:24:45.402Z"}
+{"level":"info","message":"Assigned user ID: 0380daba73249b04d5a59aa8348ed321","service":"rag-chatbot","timestamp":"2024-08-22T15:24:45.405Z"}
+{"level":"info","message":"Received message from user 8b45bc8997e34f64da23303b3000e011","service":"rag-chatbot","timestamp":"2024-08-22T15:24:56.270Z"}
+{"level":"info","message":"Generated response for user 8b45bc8997e34f64da23303b3000e011","service":"rag-chatbot","timestamp":"2024-08-22T15:25:17.259Z"}
+{"level":"info","message":"Server running on port 3000","service":"rag-chatbot","timestamp":"2024-08-22T15:26:21.486Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-22T15:26:26.416Z"}
+{"level":"info","message":"Assigned user ID: 0545b6169fa895073f6a11eee47022d4","service":"rag-chatbot","timestamp":"2024-08-22T15:26:26.417Z"}
+{"level":"info","message":"::1 - - [22/Aug/2024:15:26:29 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-22T15:26:29.415Z"}
+{"level":"info","message":"::1 - - [22/Aug/2024:15:26:48 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-22T15:26:48.473Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-22T15:26:48.605Z"}
+{"level":"info","message":"Assigned user ID: 90ee0f4b899eb94494fb83fcc15809a4","service":"rag-chatbot","timestamp":"2024-08-22T15:26:48.606Z"}
+{"level":"info","message":"Received message from user 90ee0f4b899eb94494fb83fcc15809a4","service":"rag-chatbot","timestamp":"2024-08-22T15:26:55.495Z"}
+{"level":"info","message":"Generated response for user 90ee0f4b899eb94494fb83fcc15809a4","service":"rag-chatbot","timestamp":"2024-08-22T15:27:07.763Z"}
+{"level":"info","message":"Feedback logged for user 90ee0f4b899eb94494fb83fcc15809a4, message 355190e1a857fcbaf57b1aeb90c4d9a3: good","service":"rag-chatbot","timestamp":"2024-08-22T15:27:14.642Z"}
+{"level":"info","message":"Received message from user 90ee0f4b899eb94494fb83fcc15809a4","service":"rag-chatbot","timestamp":"2024-08-22T15:27:23.155Z"}
+{"level":"info","message":"Generated response for user 90ee0f4b899eb94494fb83fcc15809a4","service":"rag-chatbot","timestamp":"2024-08-22T15:27:32.965Z"}
+{"level":"info","message":"Feedback logged for user 90ee0f4b899eb94494fb83fcc15809a4, message b6c27b19049b678cbf2662c750b5a444: good","service":"rag-chatbot","timestamp":"2024-08-22T15:27:42.768Z"}
+{"level":"info","message":"::1 - - [22/Aug/2024:15:27:46 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-22T15:27:46.308Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-22T15:56:08.389Z"}
+{"level":"info","message":"Assigned user ID: d8c46b8b7bba24e6bdaaf5d7264e9f17","service":"rag-chatbot","timestamp":"2024-08-22T15:56:08.392Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-22T15:56:11.377Z"}
+{"level":"info","message":"Assigned user ID: 39aa3af301fe3a45e38465111e54043f","service":"rag-chatbot","timestamp":"2024-08-22T15:56:11.380Z"}
+{"level":"info","message":"::1 - - [22/Aug/2024:15:56:17 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-22T15:56:17.711Z"}
+{"level":"info","message":"Client disconnected: 39aa3af301fe3a45e38465111e54043f","service":"rag-chatbot","timestamp":"2024-08-22T15:56:17.721Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-22T15:56:17.827Z"}
+{"level":"info","message":"Assigned user ID: e5bb030363be4a0ac9daf6fbc1a8fa9d","service":"rag-chatbot","timestamp":"2024-08-22T15:56:17.828Z"}
+{"level":"info","message":"Received message from user e5bb030363be4a0ac9daf6fbc1a8fa9d","service":"rag-chatbot","timestamp":"2024-08-22T15:56:27.962Z"}
+{"level":"info","message":"Generated response for user e5bb030363be4a0ac9daf6fbc1a8fa9d","service":"rag-chatbot","timestamp":"2024-08-22T15:56:52.552Z"}
+{"level":"info","message":"::1 - - [22/Aug/2024:15:57:30 +0000] \"POST /version/update HTTP/1.1\" 200 19 \"-\" \"curl/8.7.1\"","service":"rag-chatbot","timestamp":"2024-08-22T15:57:30.282Z"}
+{"level":"info","message":"::1 - - [22/Aug/2024:15:57:36 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-22T15:57:36.992Z"}
+{"level":"info","message":"Client disconnected: e5bb030363be4a0ac9daf6fbc1a8fa9d","service":"rag-chatbot","timestamp":"2024-08-22T15:57:36.999Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-22T15:57:37.094Z"}
+{"level":"info","message":"Assigned user ID: bc33adddf03de8b7c4d45fd365951c73","service":"rag-chatbot","timestamp":"2024-08-22T15:57:37.096Z"}
+{"level":"info","message":"Client disconnected: bc33adddf03de8b7c4d45fd365951c73","service":"rag-chatbot","timestamp":"2024-08-22T16:00:50.373Z"}
+{"level":"info","message":"Client disconnected: d8c46b8b7bba24e6bdaaf5d7264e9f17","service":"rag-chatbot","timestamp":"2024-08-23T01:44:08.399Z"}
+{"level":"info","message":"::1 - - [23/Aug/2024:14:55:29 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-23T14:55:29.299Z"}
+{"level":"info","message":"::1 - - [23/Aug/2024:14:55:29 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3000/metrics\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-23T14:55:29.476Z"}
+{"level":"info","message":"::1 - - [23/Aug/2024:14:55:44 +0000] \"GET / HTTP/1.1\" 200 7067 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-23T14:55:44.877Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-23T14:55:45.015Z"}
+{"level":"info","message":"Assigned user ID: 3c3b45d76fe30ebfd365137f2af50909","service":"rag-chatbot","timestamp":"2024-08-23T14:55:45.016Z"}
+{"level":"info","message":"Received message from user 3c3b45d76fe30ebfd365137f2af50909","service":"rag-chatbot","timestamp":"2024-08-23T14:55:57.339Z"}
+{"level":"info","message":"Generated response for user 3c3b45d76fe30ebfd365137f2af50909","service":"rag-chatbot","timestamp":"2024-08-23T14:56:11.424Z"}
+{"level":"info","message":"::1 - - [23/Aug/2024:14:56:19 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-23T14:56:19.590Z"}
+{"level":"info","message":"Received message from user 3c3b45d76fe30ebfd365137f2af50909","service":"rag-chatbot","timestamp":"2024-08-23T14:56:41.575Z"}
+{"level":"info","message":"Feedback logged for user 3c3b45d76fe30ebfd365137f2af50909, message 1c634c662cf66f0fd70b7c683253c089: neutral","service":"rag-chatbot","timestamp":"2024-08-23T14:56:41.585Z"}
+{"level":"info","message":"Generated response for user 3c3b45d76fe30ebfd365137f2af50909","service":"rag-chatbot","timestamp":"2024-08-23T14:56:50.120Z"}
+{"level":"info","message":"Received message from user 3c3b45d76fe30ebfd365137f2af50909","service":"rag-chatbot","timestamp":"2024-08-23T14:57:01.601Z"}
+{"level":"info","message":"Feedback logged for user 3c3b45d76fe30ebfd365137f2af50909, message baf1e2cf4aaed306876750f8be8c8ecd: neutral","service":"rag-chatbot","timestamp":"2024-08-23T14:57:01.607Z"}
+{"level":"info","message":"Generated response for user 3c3b45d76fe30ebfd365137f2af50909","service":"rag-chatbot","timestamp":"2024-08-23T14:57:15.020Z"}
+{"level":"info","message":"::1 - - [23/Aug/2024:14:57:25 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-23T14:57:25.026Z"}
+{"level":"info","message":"Client disconnected: 3c3b45d76fe30ebfd365137f2af50909","service":"rag-chatbot","timestamp":"2024-08-23T15:54:33.182Z"}
+{"level":"info","message":"::1 - - [24/Aug/2024:13:37:56 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-24T13:37:56.840Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-24T13:37:56.976Z"}
+{"level":"info","message":"Assigned user ID: 0bed43a685a31afb00528503e1a6e2ff","service":"rag-chatbot","timestamp":"2024-08-24T13:37:56.978Z"}
+{"level":"info","message":"::1 - - [24/Aug/2024:13:37:57 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-24T13:37:57.003Z"}
+{"level":"info","message":"::1 - - [24/Aug/2024:13:38:48 +0000] \"POST /version/update HTTP/1.1\" 200 19 \"-\" \"curl/8.7.1\"","service":"rag-chatbot","timestamp":"2024-08-24T13:38:48.367Z"}
+{"level":"info","message":"::1 - - [24/Aug/2024:13:38:53 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-24T13:38:53.780Z"}
+{"level":"info","message":"Client disconnected: 0bed43a685a31afb00528503e1a6e2ff","service":"rag-chatbot","timestamp":"2024-08-24T13:38:53.795Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-24T13:38:53.878Z"}
+{"level":"info","message":"Assigned user ID: c0b43039915a2164af4527d8b7a08f60","service":"rag-chatbot","timestamp":"2024-08-24T13:38:53.885Z"}
+{"level":"info","message":"Client disconnected: c0b43039915a2164af4527d8b7a08f60","service":"rag-chatbot","timestamp":"2024-08-24T14:38:33.718Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-24T14:38:34.659Z"}
+{"level":"info","message":"Assigned user ID: 1489c287e72b24285020eefae69327f4","service":"rag-chatbot","timestamp":"2024-08-24T14:38:34.666Z"}
+{"level":"info","message":"Client disconnected: 1489c287e72b24285020eefae69327f4","service":"rag-chatbot","timestamp":"2024-08-24T17:55:58.250Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-24T21:02:49.291Z"}
+{"level":"info","message":"Assigned user ID: 1762240abf38f6b6a64ab8ac89930370","service":"rag-chatbot","timestamp":"2024-08-24T21:02:49.297Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:13:55:35 +0000] \"GET / HTTP/1.1\" 200 7067 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-26T13:55:35.327Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-26T13:55:35.819Z"}
+{"level":"info","message":"Assigned user ID: 55c1899dd0b99f5caddc3b7fa583c1df","service":"rag-chatbot","timestamp":"2024-08-26T13:55:35.822Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:13:55:35 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-26T13:55:35.846Z"}
+{"level":"info","message":"Received message from user 55c1899dd0b99f5caddc3b7fa583c1df","service":"rag-chatbot","timestamp":"2024-08-26T13:55:58.958Z"}
+{"level":"info","message":"Generated response for user 55c1899dd0b99f5caddc3b7fa583c1df","service":"rag-chatbot","timestamp":"2024-08-26T13:56:23.206Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:04:40 +0000] \"GET /metrics HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-26T14:04:40.169Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:06:17 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-26T14:06:17.527Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-26T14:06:17.628Z"}
+{"level":"info","message":"Assigned user ID: 8f6f2a6b755fb1d95fb797d94f35abc7","service":"rag-chatbot","timestamp":"2024-08-26T14:06:17.638Z"}
+{"level":"info","message":"Client disconnected: 8f6f2a6b755fb1d95fb797d94f35abc7","service":"rag-chatbot","timestamp":"2024-08-26T14:06:22.406Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-26T14:06:31.880Z"}
+{"level":"info","message":"Assigned user ID: 0ffc7e8c904f5488f24f5532c61b2a86","service":"rag-chatbot","timestamp":"2024-08-26T14:06:31.882Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:09:36 +0000] \"GET /version HTTP/1.1\" 200 19 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-26T14:09:36.635Z"}
+{"level":"info","message":"Client disconnected: 0ffc7e8c904f5488f24f5532c61b2a86","service":"rag-chatbot","timestamp":"2024-08-26T14:09:36.674Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:10:04 +0000] \"POST /version/update HTTP/1.1\" 200 19 \"-\" \"curl/8.7.1\"","service":"rag-chatbot","timestamp":"2024-08-26T14:10:04.125Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:10:12 +0000] \"GET /version HTTP/1.1\" 200 19 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-26T14:10:12.264Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-26T14:10:14.438Z"}
+{"level":"info","message":"Assigned user ID: 9bbfd7e56ea872848c3b691ab196a80f","service":"rag-chatbot","timestamp":"2024-08-26T14:10:14.439Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:10:32 +0000] \"POST /version/update HTTP/1.1\" 200 19 \"-\" \"curl/8.7.1\"","service":"rag-chatbot","timestamp":"2024-08-26T14:10:32.127Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:10:49 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-26T14:10:49.034Z"}
+{"level":"info","message":"Client disconnected: 9bbfd7e56ea872848c3b691ab196a80f","service":"rag-chatbot","timestamp":"2024-08-26T14:10:49.044Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-26T14:10:49.116Z"}
+{"level":"info","message":"Assigned user ID: 9848b2e35fae4fa01107cccb0885182e","service":"rag-chatbot","timestamp":"2024-08-26T14:10:49.118Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:11:03 +0000] \"POST /version/update HTTP/1.1\" 200 19 \"-\" \"curl/8.7.1\"","service":"rag-chatbot","timestamp":"2024-08-26T14:11:03.021Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:11:11 +0000] \"POST /version/update HTTP/1.1\" 200 19 \"-\" \"curl/8.7.1\"","service":"rag-chatbot","timestamp":"2024-08-26T14:11:11.270Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:11:21 +0000] \"POST /version/update HTTP/1.1\" 200 19 \"-\" \"curl/8.7.1\"","service":"rag-chatbot","timestamp":"2024-08-26T14:11:21.456Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:11:33 +0000] \"POST /version/update HTTP/1.1\" 200 19 \"-\" \"curl/8.7.1\"","service":"rag-chatbot","timestamp":"2024-08-26T14:11:33.233Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:11:35 +0000] \"POST /version/update HTTP/1.1\" 200 19 \"-\" \"curl/8.7.1\"","service":"rag-chatbot","timestamp":"2024-08-26T14:11:35.206Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:11:36 +0000] \"POST /version/update HTTP/1.1\" 200 19 \"-\" \"curl/8.7.1\"","service":"rag-chatbot","timestamp":"2024-08-26T14:11:36.399Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:11:37 +0000] \"POST /version/update HTTP/1.1\" 200 19 \"-\" \"curl/8.7.1\"","service":"rag-chatbot","timestamp":"2024-08-26T14:11:37.293Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:11:38 +0000] \"POST /version/update HTTP/1.1\" 200 19 \"-\" \"curl/8.7.1\"","service":"rag-chatbot","timestamp":"2024-08-26T14:11:38.111Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:11:38 +0000] \"POST /version/update HTTP/1.1\" 200 19 \"-\" \"curl/8.7.1\"","service":"rag-chatbot","timestamp":"2024-08-26T14:11:38.867Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:11:39 +0000] \"POST /version/update HTTP/1.1\" 200 19 \"-\" \"curl/8.7.1\"","service":"rag-chatbot","timestamp":"2024-08-26T14:11:39.608Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:11:40 +0000] \"POST /version/update HTTP/1.1\" 200 19 \"-\" \"curl/8.7.1\"","service":"rag-chatbot","timestamp":"2024-08-26T14:11:40.352Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:11:41 +0000] \"POST /version/update HTTP/1.1\" 200 19 \"-\" \"curl/8.7.1\"","service":"rag-chatbot","timestamp":"2024-08-26T14:11:41.091Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:11:48 +0000] \"POST /version/update HTTP/1.1\" 200 20 \"-\" \"curl/8.7.1\"","service":"rag-chatbot","timestamp":"2024-08-26T14:11:48.096Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:11:50 +0000] \"POST /version/update HTTP/1.1\" 200 20 \"-\" \"curl/8.7.1\"","service":"rag-chatbot","timestamp":"2024-08-26T14:11:50.186Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:11:51 +0000] \"POST /version/update HTTP/1.1\" 200 20 \"-\" \"curl/8.7.1\"","service":"rag-chatbot","timestamp":"2024-08-26T14:11:51.464Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:12:00 +0000] \"POST /version/update HTTP/1.1\" 200 19 \"-\" \"curl/8.7.1\"","service":"rag-chatbot","timestamp":"2024-08-26T14:12:00.897Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:14:12:04 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-26T14:12:04.034Z"}
+{"level":"info","message":"Client disconnected: 9848b2e35fae4fa01107cccb0885182e","service":"rag-chatbot","timestamp":"2024-08-26T14:12:04.043Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-26T14:12:04.118Z"}
+{"level":"info","message":"Assigned user ID: e8b735caf78624b8836608385d5dbeb1","service":"rag-chatbot","timestamp":"2024-08-26T14:12:04.118Z"}
+{"level":"info","message":"Client disconnected: e8b735caf78624b8836608385d5dbeb1","service":"rag-chatbot","timestamp":"2024-08-26T14:16:08.530Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-26T15:46:30.955Z"}
+{"level":"info","message":"Assigned user ID: ad263e2ced9790c3188a1b1ba8cfadca","service":"rag-chatbot","timestamp":"2024-08-26T15:46:30.958Z"}
+{"level":"info","message":"Feedback logged for user ad263e2ced9790c3188a1b1ba8cfadca, message df95daaa9be61a3cfe9875c179bdc684: neutral","service":"rag-chatbot","timestamp":"2024-08-26T15:46:30.978Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:15:46:57 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-26T15:46:57.168Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-26T15:46:57.297Z"}
+{"level":"info","message":"Assigned user ID: ee22dfe7338846a96f4fd4feb8cbc53a","service":"rag-chatbot","timestamp":"2024-08-26T15:46:57.299Z"}
+{"level":"info","message":"Received message from user ee22dfe7338846a96f4fd4feb8cbc53a","service":"rag-chatbot","timestamp":"2024-08-26T15:47:10.546Z"}
+{"level":"error","message":"Error processing message for user ee22dfe7338846a96f4fd4feb8cbc53a: TypeError: fetch failed","service":"rag-chatbot","stack":"Error: TypeError: fetch failed\n    at ChromaClient.getCollection (/Users/laurence/Desktop/Code for LinkedIn Course/ch4-extending-RAG/node_modules/chromadb/dist/cjs/chromadb.cjs:2919:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async queryChromaDB (/Users/laurence/Desktop/Code for LinkedIn Course/ch4-extending-RAG/server.js:145:24)\n    at async Socket.<anonymous> (/Users/laurence/Desktop/Code for LinkedIn Course/ch4-extending-RAG/server.js:214:20)","timestamp":"2024-08-26T15:47:10.610Z"}
+{"level":"info","message":"Received message from user ee22dfe7338846a96f4fd4feb8cbc53a","service":"rag-chatbot","timestamp":"2024-08-26T15:47:50.886Z"}
+{"level":"info","message":"Feedback logged for user ee22dfe7338846a96f4fd4feb8cbc53a, message 39fdaa54e3e8b74e59be74a7f98ce666: neutral","service":"rag-chatbot","timestamp":"2024-08-26T15:47:50.908Z"}
+{"level":"info","message":"Generated response for user ee22dfe7338846a96f4fd4feb8cbc53a","service":"rag-chatbot","timestamp":"2024-08-26T15:48:14.880Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:15:51:44 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-26T15:51:44.282Z"}
+{"level":"info","message":"Client disconnected: ee22dfe7338846a96f4fd4feb8cbc53a","service":"rag-chatbot","timestamp":"2024-08-26T15:51:44.296Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-26T15:51:44.376Z"}
+{"level":"info","message":"Assigned user ID: 75d3dcc762d3c37d6b19386929291eb8","service":"rag-chatbot","timestamp":"2024-08-26T15:51:44.377Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-26T16:00:43.760Z"}
+{"level":"info","message":"Assigned user ID: e89c559b8520c601c8221a16282da6f5","service":"rag-chatbot","timestamp":"2024-08-26T16:00:43.761Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-26T16:00:43.973Z"}
+{"level":"info","message":"Assigned user ID: 4684efc8fcf1168f21488e1aa36c0d38","service":"rag-chatbot","timestamp":"2024-08-26T16:00:43.976Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:16:00:46 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-26T16:00:46.420Z"}
+{"level":"info","message":"Client disconnected: e89c559b8520c601c8221a16282da6f5","service":"rag-chatbot","timestamp":"2024-08-26T16:00:46.434Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-26T16:00:46.532Z"}
+{"level":"info","message":"Assigned user ID: 287ab47ec326b9934f4795a8b0d72dea","service":"rag-chatbot","timestamp":"2024-08-26T16:00:46.539Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:16:01:05 +0000] \"POST /version/update HTTP/1.1\" 200 19 \"-\" \"curl/8.7.1\"","service":"rag-chatbot","timestamp":"2024-08-26T16:01:05.864Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:16:01:09 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-26T16:01:09.823Z"}
+{"level":"info","message":"Client disconnected: 287ab47ec326b9934f4795a8b0d72dea","service":"rag-chatbot","timestamp":"2024-08-26T16:01:09.830Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-26T16:01:09.863Z"}
+{"level":"info","message":"Assigned user ID: a89a895520a1be6ecee4531e3dc46d23","service":"rag-chatbot","timestamp":"2024-08-26T16:01:09.863Z"}
+{"level":"info","message":"Received message from user a89a895520a1be6ecee4531e3dc46d23","service":"rag-chatbot","timestamp":"2024-08-26T16:01:21.664Z"}
+{"level":"info","message":"Generated response for user a89a895520a1be6ecee4531e3dc46d23","service":"rag-chatbot","timestamp":"2024-08-26T16:01:46.156Z"}
+{"level":"info","message":"Feedback logged for user a89a895520a1be6ecee4531e3dc46d23, message ad071d11f2e2eba2e0045473fb9a73cd: good","service":"rag-chatbot","timestamp":"2024-08-26T16:02:40.083Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:16:04:46 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-26T16:04:46.467Z"}
+{"level":"info","message":"Client disconnected: a89a895520a1be6ecee4531e3dc46d23","service":"rag-chatbot","timestamp":"2024-08-26T16:04:46.481Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-26T16:04:46.586Z"}
+{"level":"info","message":"Assigned user ID: a69d0397af30bdca8e8e0ca04b3777ff","service":"rag-chatbot","timestamp":"2024-08-26T16:04:46.592Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-26T16:10:24.021Z"}
+{"level":"info","message":"Assigned user ID: 990058cb70d4da21b28b2dfd4112122d","service":"rag-chatbot","timestamp":"2024-08-26T16:10:24.025Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-26T16:10:24.963Z"}
+{"level":"info","message":"Assigned user ID: 76d3774c59bc6371c000fbb73b55978c","service":"rag-chatbot","timestamp":"2024-08-26T16:10:24.965Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:16:10:25 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-26T16:10:25.149Z"}
+{"level":"info","message":"Client disconnected: 76d3774c59bc6371c000fbb73b55978c","service":"rag-chatbot","timestamp":"2024-08-26T16:10:25.162Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-26T16:10:25.263Z"}
+{"level":"info","message":"Assigned user ID: b6bc3e5467ef0c4a6df0f49012b82545","service":"rag-chatbot","timestamp":"2024-08-26T16:10:25.265Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:16:10:39 +0000] \"POST /version/update HTTP/1.1\" 200 19 \"-\" \"curl/8.7.1\"","service":"rag-chatbot","timestamp":"2024-08-26T16:10:39.118Z"}
+{"level":"info","message":"::1 - - [26/Aug/2024:16:10:44 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36\"","service":"rag-chatbot","timestamp":"2024-08-26T16:10:44.032Z"}
+{"level":"info","message":"Client disconnected: b6bc3e5467ef0c4a6df0f49012b82545","service":"rag-chatbot","timestamp":"2024-08-26T16:10:44.039Z"}
+{"level":"info","message":"New client connected","service":"rag-chatbot","timestamp":"2024-08-26T16:10:44.092Z"}
+{"level":"info","message":"Assigned user ID: faa9804935a0eb50037981089031cf44","service":"rag-chatbot","timestamp":"2024-08-26T16:10:44.094Z"}
+{"level":"info","message":"Received message from user faa9804935a0eb50037981089031cf44","service":"rag-chatbot","timestamp":"2024-08-26T16:10:49.301Z"}
+{"level":"info","message":"Generated response for user faa9804935a0eb50037981089031cf44","service":"rag-chatbot","timestamp":"2024-08-26T16:11:11.413Z"}
+{"level":"info","message":"Client disconnected: faa9804935a0eb50037981089031cf44","service":"rag-chatbot","timestamp":"2024-08-26T16:27:27.540Z"}

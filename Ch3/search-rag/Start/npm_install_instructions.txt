@@ -1,0 +1,2 @@
+npm install chromadb
+npm install openai

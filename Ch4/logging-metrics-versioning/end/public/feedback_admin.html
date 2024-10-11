@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Admin</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
+        h1, h2 { color: #333; }
+        #summary, #browser { margin-bottom: 20px; }
+        #feedbackContent { width: 100%; max-height: 500px; overflow-y: auto; }
+        button { margin-right: 10px; padding: 5px 10px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .disabled { opacity: 0.5; cursor: not-allowed; }
+    </style>
+</head>
+<body>
+    <h1>Feedback Admin</h1>
+
+    <div id="summary">
+        <h2>Feedback Summary</h2>
+        <p>Loading...</p>
+    </div>
+
+    <div id="browser">
+        <h2>Feedback Browser</h2>
+        <p>Current File: <span id="currentFile">None</span></p>
+        <button id="prevFile">Previous File</button>
+        <button id="nextFile">Next File</button>
+        <div id="feedbackContent"></div>
+    </div>
+
+    <script>
+        const summary = document.getElementById('summary');
+        const currentFile = document.getElementById('currentFile');
+        const prevFileBtn = document.getElementById('prevFile');
+        const nextFileBtn = document.getElementById('nextFile');
+        const feedbackContent = document.getElementById('feedbackContent');
+
+        let currentFileIndex = -1;
+        let files = [];
+
+        function loadSummary() {
+            fetch('/admin/feedback-summary')
+                .then(response => response.json())
+                .then(data => {
+                    summary.innerHTML = `
+                        <h2>Feedback Summary</h2>
+                        <p>Good: ${data.good}</p>
+                        <p>Neutral: ${data.neutral}</p>
+                        <p>Bad: ${data.bad}</p>
+                        <p>Total Files: ${data.totalFiles}</p>
+                    `;
+                })
+                .catch(error => {
+                    console.error('Error loading summary:', error);
+                    summary.innerHTML = '<p>Error loading summary. Check console for details.</p>';
+                });
+        }
+
+        function loadFileList() {
+            fetch('/admin/feedback-files')
+                .then(response => response.json())
+                .then(data => {
+                    files = data;
+                    if (files.length > 0) {
+                        currentFileIndex = 0;
+                        loadFile(files[currentFileIndex]);
+                    } else {
+                        currentFile.textContent = 'No files available';
+                        feedbackContent.innerHTML = '';
+                    }
+                    updateNavigationButtons();
+                })
+                .catch(error => {
+                    console.error('Error loading file list:', error);
+                    currentFile.textContent = 'Error loading files';
+                });
+        }
+
+        function loadFile(filename) {
+            currentFile.textContent = filename;
+            fetch(`/admin/feedback-file/${filename}`)
+                .then(response => response.json())
+                .then(data => {
+                    displayFeedback(data);
+                })
+                .catch(error => {
+                    console.error('Error loading file:', error);
+                    feedbackContent.innerHTML = 'Error loading file content';
+                });
+        }
+
+        function displayFeedback(feedbackData) {
+            let tableHTML = `
+                <table>
+                    <tr>
+                        <th>Timestamp</th>
+                        <th>Message</th>
+                        <th>Feedback</th>
+                    </tr>
+            `;
+            
+            feedbackData.forEach(entry => {
+                tableHTML += `
+                    <tr>
+                        <td>${entry.timestamp}</td>
+                        <td>${entry.message}</td>
+                        <td>${entry.feedback}</td>
+                    </tr>
+                `;
+            });
+            
+            tableHTML += '</table>';
+            feedbackContent.innerHTML = tableHTML;
+        }
+
+        function updateNavigationButtons() {
+            prevFileBtn.disabled = currentFileIndex <= 0;
+            nextFileBtn.disabled = currentFileIndex >= files.length - 1;
+            prevFileBtn.classList.toggle('disabled', prevFileBtn.disabled);
+            nextFileBtn.classList.toggle('disabled', nextFileBtn.disabled);
+        }
+
+        prevFileBtn.addEventListener('click', () => {
+            if (currentFileIndex > 0) {
+                currentFileIndex--;
+                loadFile(files[currentFileIndex]);
+                updateNavigationButtons();
+            }
+        });
+
+        nextFileBtn.addEventListener('click', () => {
+            if (currentFileIndex < files.length - 1) {
+                currentFileIndex++;
+                loadFile(files[currentFileIndex]);
+                updateNavigationButtons();
+            }
+        });
+
+        // Call these functions when the page loads
+        loadSummary();
+        loadFileList();
+    </script>
+</body>
+</html>
